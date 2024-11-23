@@ -1,16 +1,3 @@
-# libgmath
-Library for vector and matrix operations
-
-## Install
-To install library run
-```
-cc -o gnub gnub.c
-sudo ./gnub
-```
-in your terminal.
-
-## Quick example
-```c
 #include <gmath.h>
 #include <gtransform.h>
 
@@ -23,5 +10,3 @@ int main(int argc, char* argv[])
 
 	return 0;
 }
-```
-and compile this with `cc -o example example.c -lgmath`.
